@@ -49,12 +49,12 @@ def cleanup_csv_test():
 
 def test_convert_ics_to_string_fails_bad_ics():
     with pytest.raises(Exception):
-        assert(ics_to_csv.convert_ics_to_string("holidays-test-bad.ics"))
+        assert(ics_to_csv.convert_ics_to_string("test_data/holidays-test-bad.ics"))
     with pytest.raises(Exception):
-        assert(ics_to_csv.convert_ics_to_string("test.txt"))
+        assert(ics_to_csv.convert_ics_to_string("test_data/test.txt"))
 
 def test_convert_ics_to_string():
-    output = ics_to_csv.convert_ics_to_string("holidays-test.ics")
+    output = ics_to_csv.convert_ics_to_string("test_data/holidays-test.ics")
     assert "BEGIN:VCALENDAR" in output
 
 def test_make_event_list():
