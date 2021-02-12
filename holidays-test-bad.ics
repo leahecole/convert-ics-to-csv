@@ -1,0 +1,29 @@
+EGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Telerik Inc.//NONSGML RadScheduler//EN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:19970101
+DTEND:19970102
+UID:20210211T185111Z-05fe6751-ec1d-4532-b3a8-60e48e0eb064
+DTSTAMP:20210211T185111Z
+SUMMARY:New Year’s Day
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:19970120
+DTEND:19970121
+UID:20210211T185111Z-7eb91a64-9c09-4051-ad52-191ff8aa150a
+DTSTAMP:20210211T185111Z
+SUMMARY:Birthday of Martin Luther King, Jr.
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:19970217
+DTEND:19970218
+UID:20210211T185111Z-c82e48aa-ebc0-4c20-b0dc-4b3490deef23
+DTSTAMP:20210211T185111Z
+SUMMARY:Washington’s Birthday
+DESCRIPTION:This holiday is designated as "Washington’s Birthday" in section 6103(a) of title 5 of the United States Code, which is the law that specifies holidays for Federal employees. Though other institutions such as state and local governments and private businesses may use other names, it is our policy to always refer to holidays by the names designated in the law.
+END:VEVENT
+END:VCALENDAR
