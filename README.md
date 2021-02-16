@@ -25,4 +25,15 @@ There are a few tests that act as a confidence check and to ensure that my code 
   pip install -r requirements-test.txt
   python -m pytest ics_to_csv_test.py
 ```
+
+## Caveats
+
+In case you choose to adapt this script for your own purposes, I wanted to include a few caveats:
+
+* I wrote this script specifically based on the included [`holidays.ics` file](holidays.ics). It has not yet been tested against other iCalendar files
+* As of February 2021, no United States Federal Holidays last longer than one day. As a result, I only look at the start date in the script, not the end date. For events lasting longer than one day, this would need to be adapted. 
+
+## Contributions
+
+I welcome any additional contributions but request that if you add additional functionality, you add accompanying tests. 
   
